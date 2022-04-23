@@ -1,0 +1,164 @@
+
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: helvetica;
+}
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+	text-align:center;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', helvetica;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: black;
+    font-size: 20px;
+	font-family:helvetica;
+	font-weight:bold;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+.container.gallery-container {
+        border-radius: 0;
+		
+    }
+}
+#header1{
+	text-align:center;
+	line-height:2;
+	font-family:helvetica;
+	font-size:20px;
+	font-weight:bold;
+}
+#text{
+	font-size:12px;
+	font-weight:thin;
+	line-height:1;
+	}
+	
+#sidebar{
+	text-align:center;
+	font-family:helvetica;
+	font-size:20px;
+	font-weight:bold;
+}
+#content{
+	text-align:center;
+	font-family:helvetica;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.tz-gallery {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  text-align:center;
+}
+
+.tz-gallery:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  
+}
+
+#header2{
+	text-align:center;
+	line-height:2;
+	font-family:helvetica;
+	font-size:20px;
+	font-weight:bold;
+	
+}
+
+#hi{
+	font-size:12px;
+	font-weight:thin;
+	line-height:1;
+	text-align:center;
+	}
+#footer{
+	text-align:center;
+}
+
+#u{
+	text-align:center;
+	line-height:2;
+	font-family:helvetica;
+	font-size:18px;
+	font-weight:bold;
+	color:#DC143C;
+	}
+	
+.ui{
+	text-align:center;
+	background-color: pink; 
+    color: black;
+    font-size: 10px;
+	 padding: 6px;
+	 -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+	
+}	
+.ui:hover {
+    background-color: #ff0080; 
+    color: black;
+	opacity: 0.80;
+  -moz-opacity: .80;
+  filter:alpha (opacity=50);
+}
+
+
+ 
+	 
+	 
+#tz-gallery:hover{
+  opacity: 0.50;
+  -moz-opacity: .50;
+  filter:alpha (opacity=50);
+}
